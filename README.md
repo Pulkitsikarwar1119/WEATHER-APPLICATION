@@ -1,3 +1,115 @@
+# WEATHER APPLICATION
+
+COMPANY : CODTECH IT SOLUTIONS
+
+NAME  : PULKIT SIKARWAR
+
+INTERN ID  :CT08DF482
+
+DOMAIN  : MERN STACK WEB DEVELOPMENT
+
+DURATION :8 WEEKS
+
+MENTOR : NEELA SANTOSH
+
+## DESCRIPTION OF TASK
+
+Objective:
+The goal of this task was to build a modern, responsive Weather Application using the MERN Stack (MongoDB, Express.js, React.js, Node.js) with integration of the OpenWeatherMap API to fetch real-time weather data based on city input.
+
+🛠️ Tech Stack
+
+React.js – Frontend framework for building the user interface.
+
+Node.js – Backend runtime environment.
+
+Express.js – Web server to handle API requests.
+
+MongoDB – (Optional) to store search history or user preferences.
+
+OpenWeatherMap API – External API used to fetch current weather details based on city name.
+
+⚙️ Functional Overview
+
+The application allows users to:
+
+Enter the name of a city.
+
+Fetch and display real-time weather information such as:
+
+Temperature
+
+Weather condition (sunny, cloudy, rain, etc.)
+
+Humidity
+
+Wind speed
+
+Icon representing current weather
+
+Get user-friendly error messages if the city is not found or API fails.
+
+See results displayed in a modern, clean UI.
+
+📁 Project Structure
+
+php
+Copy
+Edit
+Task-2-Weather-App/
+├── backend/
+│   └── server.js           # Express server to handle API calls
+├── frontend/
+│   ├── src/
+│   │   ├── App.js          # Main React component
+│   │   ├── WeatherCard.jsx # Component for showing weather details
+│   │   ├── App.css         # UI styling with optional background
+│   └── public/
+│       └── index.html
+🔌 API Integration
+To fetch weather data, the application uses:
+
+bash
+
+https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric
+The API key is generated from the OpenWeatherMap dashboard (Free tier). Axios or fetch API is used on the frontend to make the request and update the UI dynamically based on the response.
+
+🖥️ How It Works
+
+User Input: A text box allows users to input a city name.
+
+API Call: On form submission or button click, an API request is sent to OpenWeatherMap using the city input.
+
+Display Results: Once data is received, a card-like interface displays the weather, including icons and temperature.
+
+Error Handling: If the city name is invalid or the API fails, appropriate messages are shown.
+
+🎨 UI Features
+
+Responsive layout using custom CSS (or optionally Tailwind/Bootstrap)
+
+Background images and colors to reflect weather mood
+
+Weather displayed in card format with clear typography
+
+Weather icons fetched dynamically based on condition codes
+
+✅ Execution
+
+Start the frontend:
+
+bash
+
+cd frontend
+npm install
+npm start
+(Optional) Start backend if using Express as a proxy:
+
+bash
+
+cd backend
+node server.js
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +180,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## OUTPUT
+
+
