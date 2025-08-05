@@ -15,7 +15,7 @@ MENTOR : NEELA SANTOSH
 ## DESCRIPTION OF TASK
 
 Objective:
-The goal of this task was to build a modern, responsive Weather Application using the MERN Stack (MongoDB, Express.js, React.js, Node.js) with integration of the OpenWeatherMap API to fetch real-time weather data based on city input.
+The goal of this task-2 was to build a modern, responsive Weather Application using the MERN Stack (MongoDB, Express.js, React.js, Node.js) with integration of the OpenWeatherMap API to fetch real-time weather data based on city input.
 
 🛠️ Tech Stack
 
