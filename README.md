@@ -183,4 +183,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## OUTPUT
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/6644fdf2-406c-4520-8e0b-4357214f8b9f" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/0825151e-301f-4add-9868-c5999febc70e" />
 
